@@ -6,7 +6,7 @@
 /*   By: vjan-nie <vjan-nie@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/17 13:30:47 by vjan-nie          #+#    #+#             */
-/*   Updated: 2025/05/22 13:46:54 by vjan-nie         ###   ########.fr       */
+/*   Updated: 2025/06/25 10:39:19 by vjan-nie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,7 @@ int	ft_atoi(const char *nptr)
 		integer = integer * 10 + (nptr[i] - '0');
 		i++;
 	}
+	if (nptr[i] != '\0')
+		return (0);
 	return (integer * pos_neg);
 }
