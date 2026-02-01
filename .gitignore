@@ -1,0 +1,54 @@
+# Compiled object files
+*.o
+*.obj
+
+# Library files
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executable files
+*.exe
+*.out
+
+# Build directories
+build/
+dist/
+bin/
+obj/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Vim swap files
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+
+# Emacs backup files
+*~
+\#*\#
+.\#*
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# Test outputs
+*.log
+test_output
